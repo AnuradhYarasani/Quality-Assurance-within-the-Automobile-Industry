@@ -29,34 +29,34 @@ List the key features of this project:
 - Use this tutorial for tensorflow  installation https://www.tutorialspoint.com/tensorflow/tensorflow_installation.htm
 
 ## Methodology:
-- **1.Problem Understanding and Definition: 
+- **1.Problem Understanding and Definition**: 
 a)	Clearly define the types of defects you want to detect in steel products (e.g., surface defects, cracks, irregularities).
 b)	Understand the criticality of these defects in relation to the automobile industry's safety and performance standards.
-- **2. Data Collection and Preparation:
+- **2. Data Collection and Preparation**:
 a) Gather a diverse dataset of steel product images or data related to defects. This dataset should encompass various types, severities, and instances of defects.
 b) Annotate the data, marking the defects and non-defective areas for supervised learning.
 c) Clean and preprocess the data to ensure consistency and relevance.
-- **3. Feature Engineering:
+- **3. Feature Engineering**:
 a) Extract relevant features from the data that are crucial for defect detection (e.g., color, texture, shape).
 b) Use domain expertise to identify and select the most informative features.
-- **4. Model Selection and Training:
+- **4. Model Selection and Training**:
 a) Choose appropriate AI/ML models for the defect detection task (e.g., Convolutional Neural Networks - CNN for image data).
 b) Split the dataset into training and validation sets.
 c) Train the selected models using the training set, fine-tuning hyperparameters as needed.
 d) Validate the models using the validation set and iterate on the training process for improved performance.
-- **5. Model Evaluation:
+- **5. Model Evaluation**:
 a) Evaluate the models using separate test data to assess their performance and generalization to unseen samples.
 b) Metrics like precision, recall, F1 score, and accuracy are typically used for evaluation.
-- **6. Model Optimization and Fine-Tuning:
+- **6. Model Optimization and Fine-Tuning**:
 a) Optimize the models for better performance, considering false positives/negatives and adjusting thresholds for decision-making.
 b) Fine-tune the models based on feedback and analysis of model performance.
-- **7. Integration into Manufacturing Process:
+- **7. Integration into Manufacturing Process**:
 a) Develop an interface to integrate the AI/ML model into the manufacturing process for real-time defect detection.
 b) Ensure seamless data flow from sensors or inspection points to the AI model and decision-making systems.
-- **8. Continuous Monitoring and Improvement:
+- **8. Continuous Monitoring and Improvement**:
 a) Continuously monitor the performance of the deployed AI/ML model in the production line.
 b) Gather feedback and update the model to adapt to new defect patterns or variations in the manufacturing process.
-- **9. Documentation and Training:
+- **9. Documentation and Training**:
 a) Document the entire methodology, including data preprocessing, model selection, and integration processes.
 b) Provide training to relevant stakeholders on utilizing and maintaining the AI/ML system.
 By following this methodology, you can systematically implement AI and ML solutions to detect defects in steel products used in the automobile industry, enhancing product quality and safety.
